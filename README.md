@@ -13,8 +13,11 @@ Environment State Space is consists of eight indicators:
 6) custom price momentum indicator;
 7) custom trade flow imbalance indicator; and 
 8) environmental reward signal.
+9) forecasted volatility.
+
+    
+### Distance to midpoint
+Distance $\xi$ is the difference from price $p$ at LOB level $i$ from midpoint $m$ at time $t$. 
+$$ \xi_{t,i}^{bid,ask} = \frac{p_{t,i}^{bid, ask}} {m_t} - 1 $$
 
 
-    
-    
-    
