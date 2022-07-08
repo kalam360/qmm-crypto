@@ -21,3 +21,11 @@ Distance $\xi$ is the difference from price $p$ at LOB level $i$ from midpoint $
 $$ \xi_{t,i}^{bid,ask} = \frac{p_{t,i}^{bid, ask}} {m_t} - 1 $$
 
 
+### Cumulative Notional Value at Price Level
+Cumulative sum $\chi$ is the sum of the product of price $p$ and quantity $q$ at LOB level $i$ at the time $t$ for both $bid$ and $ask$ sides. The LOB's first 15 price levels are extracted from $bid$ and $ask$ sides of the LOB, thus creating 30 values for this features.
+$$ \chi_{t,i}^{bid, ask} = \sum_{i=0}^{I-1} p_{bid, ask}^{t,i} \times q_{bid, ask}^{t,i}$$
+
+### Notional Imbalances
+The order imbalances $\iota$ are represented by notional value and normalized to the scale [−1, 1]. Since there are 15 price levels included, there are 15 values for this feature.
+$$ \iota_{t,i} = \frac{\chi_{t,i}^{ask,q} - \chi_{t,i}^{bid, q}}{\chi_{t,i}^{ask,q} + \chi_{t,i}^{bid,q}} $$
+
