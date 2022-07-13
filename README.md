@@ -29,3 +29,13 @@ $$ \chi_{t,i}^{bid, ask} = \sum_{i=0}^{I-1} p_{bid, ask}^{t,i} \times q_{bid, as
 The order imbalances $\iota$ are represented by notional value and normalized to the scale [−1, 1]. Since there are 15 price levels included, there are 15 values for this feature.
 $$ \iota_{t,i} = \frac{\chi_{t,i}^{ask,q} - \chi_{t,i}^{bid, q}}{\chi_{t,i}^{ask,q} + \chi_{t,i}^{bid,q}} $$
 
+
+
+
+# Tools to use
+1. pytorch
+2. cryptofeed
+3. influxdb
+4. DQN
+5. Trading Gym
+6. 
