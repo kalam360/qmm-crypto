@@ -16,15 +16,15 @@ parser.add_argument('--max_position',
                          "able to be held in a broker's inventory",
                     type=int)
 parser.add_argument('--fitting_file',
-                    default='demo_LTC-USD_20190926.csv.xz',
+                    default='train_BTC-USD_2022-07-13.csv.xz',
                     help="Data set for fitting the z-score scaler (previous day)",
                     type=str)
 parser.add_argument('--testing_file',
-                    default='demo_LTC-USD_20190926.csv.xz',
+                    default='test_BTC-USD_2022-07-13.csv.xz',
                     help="Data set for training the agent (current day)",
                     type=str)
 parser.add_argument('--symbol',
-                    default='LTC-USD',
+                    default='BTC-USD',
                     help="Name of currency pair or instrument",
                     type=str)
 parser.add_argument('--id',
@@ -34,7 +34,7 @@ parser.add_argument('--id',
                          "'market-maker-v0'",
                     type=str)
 parser.add_argument('--number_of_training_steps',
-                    default=1e5,
+                    default=1e10,
                     help="Number of steps to train the agent "
                          "(does not include action repeats)",
                     type=int)
@@ -51,7 +51,7 @@ parser.add_argument('--action_repeats',
                     help="Number of steps to pass on between actions",
                     type=int)
 parser.add_argument('--load_weights',
-                    default=False,
+                    default=True,
                     help="Load saved load_weights if TRUE, otherwise start from scratch",
                     type=bool)
 parser.add_argument('--visualize',
@@ -59,7 +59,7 @@ parser.add_argument('--visualize',
                     help="Render midpoint on a screen",
                     type=bool)
 parser.add_argument('--training',
-                    default=True,
+                    default=False,
                     help="Training or testing mode. " +
                          "If TRUE, then agent starts learning, " +
                          "If FALSE, then agent is tested",

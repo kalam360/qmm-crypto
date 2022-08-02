@@ -1,0 +1,56 @@
+name: qmm-data
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - _libgcc_mutex=0.1=main
+  - _openmp_mutex=5.1=1_gnu
+  - brotlipy=0.7.0=py37h540881e_1004
+  - ca-certificates=2022.6.15=ha878542_0
+  - certifi=2022.6.15=py37h89c1867_0
+  - cffi=1.15.0=py37hd667e15_1
+  - charset-normalizer=2.1.0=pyhd8ed1ab_0
+  - cryptography=35.0.0=py37hf1a17b8_2
+  - idna=3.3=pyhd8ed1ab_0
+  - ld_impl_linux-64=2.38=h1181459_1
+  - libffi=3.3=he6710b0_2
+  - libgcc-ng=11.2.0=h1234567_1
+  - libgomp=11.2.0=h1234567_1
+  - libstdcxx-ng=11.2.0=h1234567_1
+  - ncurses=6.3=h5eee18b_3
+  - openssl=1.1.1q=h7f8727e_0
+  - pip=22.1.2=py37h06a4308_0
+  - pycparser=2.21=pyhd8ed1ab_0
+  - pyopenssl=22.0.0=pyhd8ed1ab_0
+  - pysocks=1.7.1=py37h89c1867_5
+  - python=3.7.13=h12debd9_0
+  - python_abi=3.7=2_cp37m
+  - readline=8.1.2=h7f8727e_1
+  - requests=2.28.1=pyhd8ed1ab_0
+  - setuptools=61.2.0=py37h06a4308_0
+  - sortedcontainers=2.4.0=pyhd8ed1ab_0
+  - sqlite=3.38.5=hc218d9a_0
+  - tk=8.6.12=h1ccaba5_0
+  - urllib3=1.26.10=pyhd8ed1ab_0
+  - websockets=10.3=py37h540881e_0
+  - wheel=0.37.1=pyhd3eb1b0_0
+  - xz=5.2.5=h7f8727e_1data_store
+  - zlib=1.2.12=h7f8727e_2
+  - pip:
+    - arctic==1.80.5
+    - backports-zoneinfo==0.2.1
+    - decorator==5.1.1
+    - enum-compat==0.0.3
+    - lz4==4.0.1
+    - mock==4.0.3
+    - mockextras==1.0.2
+    - numpy==1.18.4
+    - pandas==1.0.3
+    - pymongo==3.11.0
+    - python-dateutil==2.8.2
+    - pytz==2022.1
+    - pytz-deprecation-shim==0.1.0.post0
+    - six==1.16.0
+    - tzdata==2022.1
+    - tzlocal==4.2
+prefix: /home/kalam/miniconda3/envs/qmm-data

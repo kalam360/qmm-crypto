@@ -50,4 +50,4 @@ ENCOURAGEMENT = 0.000000000001
 
 # Data Directory
 ROOT_PATH = os.path.dirname(os.path.realpath(__file__))
-DATA_PATH = os.path.join(ROOT_PATH, 'data_store')
+DATA_PATH = os.path.join(ROOT_PATH, 'data_store', 'database', 'data_exports')

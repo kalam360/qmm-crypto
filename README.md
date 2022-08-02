@@ -38,4 +38,16 @@ $$ \iota_{t,i} = \frac{\chi_{t,i}^{ask,q} - \chi_{t,i}^{bid, q}}{\chi_{t,i}^{ask
 3. influxdb
 4. DQN
 5. Trading Gym
-6. 
+
+
+# How to use
+
+## Train:
+```python
+python experiments.py --training true
+```
+
+## Testing
+```python
+python experiments.py --training false
+```

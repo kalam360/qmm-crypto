@@ -1,0 +1,2 @@
+model_checkpoint_path: "dqn_market-maker-v0_cnn_weights.h5f"
+all_model_checkpoint_paths: "dqn_market-maker-v0_cnn_weights.h5f"

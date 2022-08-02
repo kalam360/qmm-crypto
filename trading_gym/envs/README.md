@@ -1,5 +1,4 @@
-# Environments
-As of December 12, 2019.
+
 
 ## 1. Overview
 Each python file is an extension to OpenAI's GYM module 
